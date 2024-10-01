@@ -19,9 +19,8 @@ linked libraries, and perform hexdumps, within a terminal user interface.
 
 %prep
 %autosetup -a1 -p1
-%cargo_prep
-mkdir .cargo
-cp %{SOURCE2} .cargo/config
+%cargo_prep -v vendor
+
 
 %build
 %cargo_build
