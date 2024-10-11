@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           binsider
-Version:        0.2.0
+Version:        0.2.1
 Release:        1
 Summary:        Analyze ELF binaries
 License:        Apache-2.0 OR MIT
